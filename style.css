@@ -1,0 +1,1743 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header ----------*/
+.preview__banner__header{
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(45, 39, 39);
+  z-index: 1;
+}
+.banner__header{
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  top: 13px;
+  left: 15px;
+}
+.button__header{
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  top: 10px;
+  right: 15px;
+  border-radius: 5px;
+  border-style: hidden;
+  color: white;
+  background-color: rgb(131, 202, 25);
+  box-shadow: 0 2px rgb(96, 154, 10);
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button__header:hover{
+  cursor: pointer;
+  background-color: rgb(96, 154, 10);
+  transition: 1s;
+}
+.Part__1{
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-color: rgb(142, 96, 96);
+}
+.Part__2{
+  position: relative;
+  height: 1700px;
+  background-color: rgb(244, 230, 230);
+}
+.split__TwoPart{
+  width: 100%;
+  height: 10px;
+  background-color: white;
+}
+.Part__3{
+  position: relative;
+  height: 1200px;
+  background-color: rgb(244, 230, 230);
+}
+.Part__4{
+  position: relative;
+  height: 500px;
+}
+.end__page{
+  position: relative;
+  height: 600px;
+}
+
+/* Part1 ----------*/
+.background{
+  width: 50%;
+  height: auto;
+  z-index: -1;
+}
+.first__background{
+  position: absolute;
+  width: 75%;
+  height: auto;
+  right: 170px;
+}
+.card__1, 
+.card__2,
+.card__3,
+.card__4,
+.card__5,
+.card__6{
+  position: absolute;
+}
+.card__1{
+  top: 80px;
+  left: 35px;
+  animation-name: card1__move;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes card1__move{
+  0%   { top:80px;}
+  25%  { top:85px;}
+  50%  { top:90px;}
+  75%  { top:95px;}
+  100% { top:100px;}
+}
+.card__2{
+  top: 325px;
+  left: 215px;
+  animation-name: card2__move;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes card2__move{
+  0%   { left:215px;}
+  25%  { left:220px;}
+  50%  { left:225px;}
+  75%  { left:230px;}
+  100% { left:235px;}
+}
+.card__3{
+  top: 430px;
+  left: 5px;
+  animation-name: card3__move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes card3__move{
+  0%   { top:430px;}
+  25%  { top:435px;}
+  50%  { top:440px;}
+  75%  { top:445px;}
+  100% { top:450px;}
+}
+.card__4{
+  top: 325px;
+  right: 215px;
+  animation-name: card4__move;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes card4__move{
+  0%   { top:325px;}
+  25%  { top:330px;}
+  50%  { top:335px;}
+  75%  { top:340px;}
+  100% { top:345px;}
+}
+.card__5{
+  top: 80px;
+  right: 35px;
+  animation-name: card5__move;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes card5__move{
+  0%   { top:80px;}
+  25%  { top:85px;}
+  50%  { top:90px;}
+  75%  { top:95px;}
+  100% { top:100px;}
+}
+.card__6{
+  top: 430px;
+  right: 5px;
+  animation-name: card6__move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes card6__move{
+  0%   { right:5px;}
+  25%  { right:10px;}
+  50%  { right:15px;}
+  75%  { right:20px;}
+  100% { right:25px;}
+}
+
+/* Part2 ----------*/
+.title{
+  position: absolute;
+  top: 40px;
+  left: 590px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divine{
+  position: absolute;
+  top: 75px;
+  left: 600px;
+}
+
+
+/* card__homepage1 ----------*/
+.card__homepage1{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: 155px;
+  left: 15px;
+}
+.card1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card1{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card1{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage1:hover .overlay1 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage1:hover .card1{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card1:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage1:hover .button__card1{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage1:hover .title__card1{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage2 ----------*/
+.card__homepage2{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -274px;
+  left: 380px;
+}
+.card2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card2{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card2{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage2:hover .overlay2 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage2:hover .card2{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card2:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage2:hover .button__card2{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage2:hover .title__card2{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage3 ----------*/
+.card__homepage3{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -704px;
+  left: 745px;
+}
+.card3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card3{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card3{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage3:hover .overlay3 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage3:hover .card3{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card3:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage3:hover .button__card3{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage3:hover .title__card3{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage4 ----------*/
+.card__homepage4{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1135px;
+  left: 1111px;
+}
+.card4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card4{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card4{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage4:hover .overlay4 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage4:hover .card4{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card4:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage4:hover .button__card4{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage4:hover .title__card4{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage5 ----------*/
+.card__homepage5{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1090px;
+  left: 15px;
+}
+.card5{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay5{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card5{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card5{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage5:hover .overlay5 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage5:hover .card5{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card5:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage5:hover .button__card5{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage5:hover .title__card5{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage6 ----------*/
+.card__homepage6{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1520px;
+  left: 380px;
+}
+.card6{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay6{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card6{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card6{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage6:hover .overlay6 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage6:hover .card6{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card6:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage6:hover .button__card6{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage6:hover .title__card6{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage7 ----------*/
+.card__homepage7{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1950px;
+  left: 745px;
+}
+.card7{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay7{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card7{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card7{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage7:hover .overlay7 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage7:hover .card7{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card7:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage7:hover .button__card7{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage7:hover .title__card7{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage8 ----------*/
+.card__homepage8{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -2380px;
+  left: 1111px;
+}
+.card8{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay8{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card8{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card8{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage8:hover .overlay8 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage8:hover .card8{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card8:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage8:hover .button__card8{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage8:hover .title__card8{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage9 ----------*/
+.card__homepage9{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -2340px;
+  left: 15px;
+}
+.card9{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay9{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card9{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card9{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage9:hover .overlay9 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage9:hover .card9{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card9:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage9:hover .button__card9{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage9:hover .title__card9{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage10 ----------*/
+.card__homepage10{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -2770px;
+  left: 380px;
+}
+.card10{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay10{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card10{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card10{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage10:hover .overlay10 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage10:hover .card10{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card10:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage10:hover .button__card10{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage10:hover .title__card10{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage11 ----------*/
+.card__homepage11{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -3200px;
+  left: 745px;
+}
+.card11{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay11{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card11{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card11{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage11:hover .overlay11 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage11:hover .card11{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card11:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage11:hover .button__card11{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage11:hover .title__card11{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage12 ----------*/
+.card__homepage12{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -3630px;
+  left: 1111px;
+}
+.card12{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay12{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card12{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 90px;
+  color: white;
+}
+.button__card12{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage12:hover .overlay12 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage12:hover .card12{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card12:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage12:hover .button__card12{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage12:hover .title__card12{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* Part3 ----------*/
+.title2{
+  position: absolute;
+  top: 40px;
+  left: 590px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divine2{
+  position: absolute;
+  top: 75px;
+  left: 600px;
+} 
+
+/* card__homepage13 ----------*/
+.card__homepage13{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: 155px;
+  left: 15px;
+}
+.card13{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay13{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card13{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 120px;
+  color: white;
+}
+.button__card13{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage13:hover .overlay13 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage13:hover .card13{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card13:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage13:hover .button__card13{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage13:hover .title__card13{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/* card__homepage14 ----------*/
+.card__homepage14{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -274px;
+  left: 380px;
+}
+.card14{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay14{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card14{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 125px;
+  color: white;
+}
+.button__card14{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage14:hover .overlay14 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage14:hover .card14{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card14:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage14:hover .button__card14{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage14:hover .title__card14{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage15 ----------*/
+.card__homepage15{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -704px;
+  left: 745px;
+}
+.card15{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay15{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card15{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 128px;
+  color: white;
+}
+.button__card15{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage15:hover .overlay15 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage15:hover .card15{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card15:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage15:hover .button__card15{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage15:hover .title__card15{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage16 ----------*/
+.card__homepage16{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1135px;
+  left: 1111px;
+}
+.card16{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay16{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card16{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 100px;
+  color: white;
+}
+.button__card16{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage16:hover .overlay16 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage16:hover .card16{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card16:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage16:hover .button__card16{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage16:hover .title__card16{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage17 ----------*/
+.card__homepage17{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1090px;
+  left: 15px;
+}
+.card17{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay17{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card17{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 75px;
+  color: white;
+}
+.button__card17{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage17:hover .overlay17 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage17:hover .card17{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card17:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage17:hover .button__card17{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage17:hover .title__card17{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage18 ----------*/
+.card__homepage18{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1520px;
+  left: 380px;
+}
+.card18{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay18{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card18{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 65px;
+  color: white;
+}
+.button__card18{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage18:hover .overlay18 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage18:hover .card18{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card18:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage18:hover .button__card18{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage18:hover .title__card18{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage19 ----------*/
+.card__homepage19{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -1950px;
+  left: 745px;
+}
+.card19{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay19{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card19{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 89px;
+  color: white;
+}
+.button__card19{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage19:hover .overlay19 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage19:hover .card19{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card19:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage19:hover .button__card19{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage19:hover .title__card19{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* card__homepage20 ----------*/
+.card__homepage20{
+  position: relative;
+  width: 340px;
+  height: 430px;
+  top: -2380px;
+  left: 1111px;
+}
+.card20{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 9px rgb(182, 142, 142);
+}
+.overlay20{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  visibility: hidden;
+  background-color: rgb(63, 56, 56);
+  opacity: 0.8;
+}
+.title__card20{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 180px;
+  left: 115px;
+  color: white;
+}
+.button__card20{
+  position: absolute;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+  top: 275px;
+  left: 98px;
+  background: rgb(0, 0, 0,1);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card__homepage20:hover .overlay20 {
+  cursor: pointer;
+  visibility: visible; 
+  margin-top: -10px;
+  transition: all 0.5s;
+}
+.card__homepage20:hover .card20{
+  margin-top: -10px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.button__card20:hover{
+  cursor: pointer;
+  background-color: rgb(40, 38, 38);
+  visibility: visible;
+  transition: 1s;
+}
+.card__homepage20:hover .button__card20{
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.card__homepage20:hover .title__card20{
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+
+/* Part 4 ---------*/
+.title3{
+  position: absolute;
+  top: 90px;
+  left: 590px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divine3{
+  position: absolute;
+  top: 125px;
+  left: 600px;
+}
+.info{
+  position: absolute;
+  width: 500px;
+  top: 180px;
+  left: 460px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+.logo__footer{
+  position: relative;
+}
+
+.logo__1,
+.logo__2,
+.logo__3,
+.logo__4,
+.logo__5,
+.logo__6{
+  position: absolute;
+  top: 300px;
+}
+.logo__1{
+  left: 200px;
+}
+.logo__2{
+  left: 400px;
+}
+.logo__3{
+  left: 600px;
+}
+.logo__4{
+  left: 800px;
+}
+.logo__5{
+  left: 1000px;
+}
+.logo__6{
+  left: 1200px;
+}
+.name__logo1,
+.name__logo2,
+.name__logo3,
+.name__logo4,
+.name__logo5,
+.name__logo6{
+  position: absolute;
+  top: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.name__logo1{
+  left: 170px;
+}
+.name__logo2{
+  left: 395px;
+}
+.name__logo3{
+  left: 590px;
+}
+.name__logo4{
+  left: 795px;
+}
+.name__logo5{
+  left: 995px;
+}
+.name__logo6{
+  left: 1195px;
+}
+.end__page{
+  margin: auto;
+  width: 700px;
+  height: 350px;
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  border: 1px solid rgb(146, 98, 98);
+}
+.end__button1,
+.end__button2,
+.end__title
+{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.end__title{
+  top: 110px;
+  left: 200px;
+}
+.end__button1{
+  top: 200px;
+  left: 175px;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: hidden;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(226, 194, 194);
+}
+.end__button2{
+  top: 200px;
+  left: 355px;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: hidden;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(137, 104, 104);
+  color: white;
+}
+.end__button1:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+.end__button2:hover{
+  cursor: pointer;
+  background-color: black;
+  transition: 0.3s;
+}
